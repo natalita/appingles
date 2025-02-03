@@ -1,0 +1,10 @@
+.contAchiImg {
+    width: 100%;
+    height: 20em;
+    overflow: hidden;
+}
+
+.achiImg {
+    max-width: 100%;
+    height: auto;
+}

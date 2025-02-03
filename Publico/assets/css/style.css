@@ -1,0 +1,581 @@
+/* Regular font weight */
+body {
+  font-family: "Montserrat", sans-serif !important; 
+  font-weight: 500;
+}
+
+/* Bold font weight */
+h1,
+h2,
+h3,
+strong {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.centrado {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.centrado button {
+  flex: 1;
+  padding: 10px;
+  /* margin: 0 10px; */
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Estilos de contenedores principales */
+:root {
+  /* Colores Globales */
+  --bg-color-activities: #ffffff;
+  --bg-color-tests: #ffffff;
+  --bg-color-training: #ffffff;
+  --bg-color-ranking: #ffffff;
+  --bg-color-achievements: #ffffff;
+  --bg-color-bonification: #ffffff;
+  --bg-color-streak: #ffffff;
+  --bg-color-resources: #ffffff;
+  --bg-color-users: #ffffff;
+  --bg-color-crossword: #46F964;
+  --bg-color-hangman: #39BDF7;
+  --bg-color-word_puzzle: #FFC700;  
+
+  /* Borde Global */
+  --border-color-activities: #FF6E0B;
+  --border-color-tests: #34CE51;
+  --border-color-training: #64B8E7;
+  --border-color-ranking: #FFC700;
+  --border-color-achievements: #39BDF7;
+  --border-color-bonification: #FCD65E;
+  --border-color-streak: #BC0613;
+  --border-color-resources: #46F964;
+  --border-color-users: #F48A42;
+  --border-color-crossword: #ffffff;
+  --border-color-hangman: #ffffff;
+  --border-color-word_puzzle: #ffffff;
+
+  /* Colores de Texto */
+  --text-color-activities: #FF6E0B;
+  --text-color-tests: #34CE51;
+  --text-color-training: #64B8E7;
+  --text-color-ranking: #FFC700;
+  --text-color-achievements: #39BDF7;
+  --text-color-bonification: #FCD65E;
+  --text-color-streak: #BC0613;
+  --text-color-resources: #46F964;
+  --text-color-users: #F48A42;
+  --text-color-crossword: #ffffff;
+  --text-color-hangman: #ffffff;
+  --text-color-word_puzzle: #ffffff;
+
+  /* Radio de Bordes Global */
+  --border-radius-top-left: 30px;
+  --border-radius-top-right: 0px;
+  --border-radius-bottom-left: 30px;
+  --border-radius-bottom-right: 0px;
+
+  /* Colores de Botones */
+  --button-bg-color-activities: #FF6E0B;
+  --button-bg-color-tests: #34CE51;
+  --button-bg-color-training: #64B8E7;
+  --button-bg-color-ranking: #FFC700;
+  --button-bg-color-achievements: #39BDF7;
+  --button-bg-color-bonification: #FCD65E;
+  --button-bg-color-streak: #BC0613;
+  --button-bg-color-resources: #46F964;
+  --button-bg-color-users: #F48A42;
+  --button-bg-color-crossword: #46F964;
+  --button-bg-color-hangman: #39BDF7;
+  --button-bg-color-word_puzzle: #FFC700;
+  
+  
+  /* Hover de Botones */
+  --button-hover-bg-color-activities: #ffffff;
+  --button-hover-bg-color-tests: #ffffff;
+  --button-hover-bg-color-training: #ffffff;
+  --button-hover-bg-color-ranking: #ffffff;
+  --button-hover-bg-color-achievements: #ffffff;
+  --button-hover-bg-color-bonification: #ffffff;
+  --button-hover-bg-color-streak: #ffffff;
+  --button-hover-bg-color-resources: #ffffff;
+  --button-hover-bg-color-users: #ffffff;
+  --button-hover-bg-color-crossword: #ffffff;
+  --button-hover-bg-color-hangman: #ffffff;
+  --button-hover-bg-color-word_puzzle: #ffffff;
+    
+  /* Colores del Texto dentro de los Botones */
+  --button-text-color-activities: #fff;
+  --button-text-color-tests: #fff;
+  --button-text-color-training: #fff;
+  --button-text-color-ranking: #fff;
+  --button-text-color-achievements: #fff;
+  --button-text-color-bonification: #fff;
+  --button-text-color-streak: #fff;
+  --button-text-color-resources: #fff;
+  --button-text-color-users: #fff;
+  --button-text-color-crossword: #fff;
+  --button-text-color-hangman: #fff;
+  --button-text-color-word_puzzle: #fff;
+
+  /* Colores de Hover de Texto */
+  --button-hover-text-color-activities: #FF6E0B;
+  --button-hover-text-color-tests: #34CE51;
+  --button-hover-text-color-training: #64B8E7;
+  --button-hover-text-color-ranking: #FFC700;
+  --button-hover-text-color-achievements: #39BDF7;
+  --button-hover-text-color-bonification: #FCD65E;
+  --button-hover-text-color-streak: #BC0613;
+  --button-hover-text-color-resources: #46F964;
+  --button-hover-text-color-users: #F48A42;
+  --button-hover-color-crossword: #46F964;
+  --button-hover-color-hangman: #39BDF7;
+  --button-hover-color-word_puzzle: #FFC700;
+
+}
+
+.esquinas-redondeados {
+  border-radius: var(--border-radius-top-left) var(--border-radius-top-right) var(--border-radius-bottom-left) var(--border-radius-bottom-right);
+}
+
+.info-box.activities {
+  background-color: var(--bg-color-activities);
+  border: 2px solid var(--border-color-activities);
+  color: var(--text-color-activities);
+}
+
+.info-box.tests {
+  background-color: var(--bg-color-tests);
+  border: 2px solid var(--border-color-tests);
+  color: var(--text-color-tests);
+}
+
+.info-box.training {
+  background-color: var(--bg-color-training);
+  border: 2px solid var(--border-color-training);
+  color: var(--text-color-training);
+}
+
+.info-box.ranking {
+  background-color: var(--bg-color-ranking);
+  border: 2px solid var(--border-color-ranking);
+  color: var(--text-color-ranking);
+}
+
+.info-box.achievements {
+  background-color: var(--bg-color-achievements);
+  border: 2px solid var(--border-color-achievements);
+  color: var(--text-color-achievements);
+}
+
+.info-box.bonification {
+  background-color: var(--bg-color-bonification);
+  border: 2px solid var(--border-color-bonification);
+  color: var(--text-color-bonification);
+}
+
+.info-box.streak {
+  background-color: var(--bg-color-streak);
+  border: 2px solid var(--border-color-streak);
+  color: var(--text-color-streak);
+}
+
+.info-box.resources {
+  background-color: var(--bg-color-resources);
+  border: 2px solid var(--border-color-resources);
+  color: var(--text-color-resources);
+}
+
+.info-box.users {
+  background-color: var(--bg-color-users);
+  border: 2px solid var(--border-color-users);
+  color: var(--text-color-users);
+}
+
+.info-box.crossword {
+  background-color: var(--bg-color-crossword);
+  border: 2px solid var(--border-color-crossword);
+  color: var(--text-color-crossword);
+}
+
+.info-box.hangman {
+  background-color: var(--bg-color-hangman);
+  border: 2px solid var(--border-color-hangman);
+  color: var(--text-color-hangman);
+}
+
+.info-box.word_puzzle {
+  background-color: var(--bg-color-word_puzzle);
+  border: 2px solid var(--border-color-word_puzzle);
+  color: var(--text-color-word_puzzle);
+}
+
+/* Estilo base para los botones */
+a.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 8px;
+}
+
+/* Estilos de fondo y color de texto para cada tipo de botón */
+a.btn-activity {
+  background-color: var(--button-bg-color-activities);
+  color: var(--button-text-color-activities);
+  border-color: var(--border-color-activities);
+}
+
+a.btn-test {
+  background-color: var(--button-bg-color-tests);
+  color: var(--button-text-color-tests);
+  border-color: var(--border-color-tests);
+}
+
+a.btn-training {
+  background-color: var(--button-bg-color-training);
+  color: var(--button-text-color-training);
+  border-color: var(--border-color-training);
+}
+
+a.btn-ranking {
+  background-color: var(--button-bg-color-ranking);
+  color: var(--button-text-color-ranking);
+  border-color: var(--border-color-ranking);
+}
+
+a.btn-achievements {
+  background-color: var(--button-bg-color-achievements);
+  color: var(--button-text-color-achievements);
+  border-color: var(--border-color-achievements);
+}
+
+a.btn-bonification {
+  background-color: var(--button-bg-color-bonification);
+  color: var(--button-text-color-bonification);
+  border-color: var(--border-color-bonification);
+}
+
+a.btn-streak {
+  background-color: var(--button-bg-color-streak);
+  color: var(--button-text-color-streak);
+  border-color: var(--border-color-streak);
+}
+
+a.btn-resources {
+  background-color: var(--button-bg-color-resources);
+  color: var(--button-text-color-resources);
+  border-color: var(--border-color-resources);
+}
+
+a.btn-users {
+  background-color: var(--button-bg-color-users);
+  color: var(--button-text-color-users);
+  border-color: var(--border-color-users);
+}
+
+a.btn-crossword {
+  background-color: var(--button-bg-color-crossword);
+  color: var(--button-text-color-crossword);
+  border-color: var(--border-color-crossword);
+}
+
+a.btn-hangman {
+  background-color: var(--button-bg-color-hangman);
+  color: var(--button-text-color-hangman);
+  border-color: var(--border-color-hangman);
+}
+
+a.btn-word_puzzle {
+  background-color: var(--button-bg-color-word_puzzle);
+  color: var(--button-text-color-word_puzzle);
+  border-color: var(--border-color-word_puzzle);
+}
+
+/* Estilos para los botones cuando se pasa el mouse por encima */
+a.btn:hover {
+  background-color: var(--button-hover-bg-color-activities);
+  color: white;
+}
+
+a.btn-activity:hover {
+  background-color: var(--button-hover-bg-color-activities);
+  color: var(--button-hover-text-color-activities);
+}
+
+a.btn-test:hover {
+  background-color: var(--button-hover-bg-color-tests);
+  color: var(--button-hover-text-color-tests);
+}
+
+a.btn-training:hover {
+  background-color: var(--button-hover-bg-color-training);
+  color: var(--button-hover-text-color-training);
+}
+
+a.btn-ranking:hover {
+  background-color: var(--button-hover-bg-color-ranking);
+  color: var(--button-hover-text-color-ranking);
+}
+
+a.btn-achievements:hover {
+  background-color: var(--button-hover-bg-color-achievements);
+  color: var(--button-hover-text-color-achievements);
+}
+
+a.btn-bonification:hover {
+  background-color: var(--button-hover-bg-color-bonification);
+  color: var(--button-hover-text-color-bonification);
+}
+
+a.btn-streak:hover {
+  background-color: var(--button-hover-bg-color-streak);
+  color: var(--button-hover-text-color-streak);
+}
+
+a.btn-resources:hover {
+  background-color: var(--button-hover-bg-color-resources);
+  color: var(--button-hover-text-color-resources);
+}
+
+a.btn-users:hover {
+  background-color: var(--button-hover-bg-color-users);
+  color: var(--button-hover-text-color-users);
+}
+
+a.btn-crossword:hover {
+  background-color: var(--button-hover-bg-color-crossword);
+  color: var(--button-hover-text-color-crossword);
+}
+
+a.btn-hangman:hover {
+  background-color: var(--button-hover-bg-color-hangman);
+  color: var(--button-hover-text-color-hangman);
+}
+
+a.btn-word_puzzle:hover {
+  background-color: var(--button-hover-bg-color-word_puzzle);
+  color: var(--button-hover-text-color-word_puzzle);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*UNIDAD*/
+
+:root{
+  --bg-color-unit1: #FF6E0B;
+  --bg-color-unit2: #FFC700;
+  --bg-color-unit3: #64B8E7;
+
+  --border-color-unit1: #FF6E0B;
+  --border-color-unit2: #FFC700;
+  --border-color-unit3: #64B8E7;
+
+  --text-color-unit1: #ffffff;
+  --text-color-unit2: #ffffff;
+  --text-color-unit3: #ffffff;
+
+  --button-bg-color-unit1: #FF6E0B;
+  --button-bg-color-unit2: #FFC700;
+  --button-bg-color-unit3: #64B8E7;
+
+  --button-hover-bg-color-unit1: #ffffff;
+  --button-hover-bg-color-unit2: #ffffff;
+  --button-hover-bg-color-unit3: #ffffff;
+
+  --button-text-color-unit1: #fff;
+  --button-text-color-unit2: #fff;
+  --button-text-color-unit3: #fff;
+
+  --button-hover-color-unit1: #FF6E0B;
+  --button-hover-color-unit2: #FFC700;
+  --button-hover-color-unit3: #64B8E7;
+}
+
+.unidad-box1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: var(--bg-color-unit1);
+}
+.unidad-box2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: var(--bg-color-unit2);
+}
+.unidad-box3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: var(--bg-color-unit3);
+}
+
+.unidad-select1 {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: var(--bg-color-unit1);
+  color: var(--text-color-unit1);
+  font-weight: bold;
+  border: 1px solid var(--border-color-unit1);
+  border-radius: 4px;
+  outline: none;
+}
+
+.unidad-select2 {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: var(--bg-color-unit2);
+  color: var(--text-color-unit2);
+  font-weight: bold;
+  border: 1px solid var(--border-color-unit2);
+  border-radius: 4px;
+  outline: none;
+}
+
+.unidad-select3 {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: var(--bg-color-unit3);
+  color: var(--text-color-unit3);
+  font-weight: bold;
+  border: 1px solid var(--border-color-unit3);
+  border-radius: 4px;
+  outline: none;
+}
+
+
+/* Hover para los selects */
+.unidad-select1:hover {
+  background-color: var(--button-hover-bg-color-unit1);
+  color: var(--button-hover-color-unit1);
+}
+
+.unidad-select2:hover {
+  background-color: var(--button-hover-bg-color-unit2);
+  color: var(--button-hover-color-unit2);
+}
+
+.unidad-select3:hover {
+  background-color: var(--button-hover-bg-color-unit3);
+  color: var(--button-hover-color-unit3);
+}
+
+/* Hover para los botones de los recursos (opcional si tienes botones dentro de los selects) */
+.button:hover,
+.button:hover,
+.button:hover {
+  background-color: var(--button-hover-bg-color-unit1);
+  color: var(--button-hover-color-unit1);
+}
+
+/* Contenedor de la imagen de la unidad */
+.unidad-image-container {
+  flex: 0 0 40px;
+}
+
+/* Estilo para la imagen de la unidad */
+.unidad-img {
+  max-width: 100%;
+  max-height: 5rem;
+  height: auto;
+}
+
+/* Contenedor de la información de la unidad (título y select) */
+.unidad-info-container {
+  flex-grow: 1;
+}
+
+/* Estilo para el título de la unidad */
+.unidad-title {
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* Contenedor del formulario con position relative */
+.card.bg-light {
+  position: relative;
+}
+
+/* SVG en la esquina superior derecha */
+.svg-top-right {
+  position: absolute;
+  top: -2.5rem;
+  right: -2.5rem;
+  width: 5rem;
+  /* Cambia este tamaño según lo que necesites */
+  height: auto;
+  z-index: 10;
+}
+
+/* SVG en la esquina inferior izquierda */
+.svg-bottom-left {
+  position: absolute;
+  bottom: -2.5rem;
+  left: -2.5rem;
+  width: 5rem;
+  /* Cambia este tamaño según lo que necesites */
+  height: auto;
+  z-index: 10;
+}
+
+/* Ajustes responsivos para que los SVGs se adapten al tamaño de la pantalla */
+@media (max-width: 768px) {
+
+  .svg-top-right,
+  .svg-bottom-left {
+    width: 6rem;
+    /* Reducir tamaño en pantallas más pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+
+  .svg-top-right,
+  .svg-bottom-left {
+    width: 4rem;
+    /* Reducir aún más en pantallas muy pequeñas */
+  }
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 172.46 172.86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Degradado_sin_nombre_224-3);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#Degradado_sin_nombre_224-7);
+      }
+
+      .cls-3 {
+        fill: url(#Degradado_sin_nombre_233);
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_224-6);
+      }
+
+      .cls-5 {
+        fill: url(#Degradado_sin_nombre_224-4);
+      }
+
+      .cls-6 {
+        fill: url(#Degradado_sin_nombre_224);
+      }
+
+      .cls-7 {
+        fill: url(#Degradado_sin_nombre_224-2);
+      }
+
+      .cls-8 {
+        fill: url(#Degradado_sin_nombre_240);
+      }
+
+      .cls-9 {
+        fill: url(#Degradado_sin_nombre_224-5);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_233" data-name="Degradado sin nombre 233" x1="248.45" y1="25.72" x2="271.11" y2="25.72" gradientTransform="translate(-87.99 185.28) rotate(-38.38)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#009ee9"/>
+      <stop offset=".08" stop-color="#42b7ee"/>
+      <stop offset=".16" stop-color="#84d0f4"/>
+      <stop offset=".24" stop-color="#b9e4f8"/>
+      <stop offset=".31" stop-color="#dff2fc"/>
+      <stop offset=".36" stop-color="#f6fbfe"/>
+      <stop offset=".39" stop-color="#fff"/>
+      <stop offset=".45" stop-color="#f9fcfe"/>
+      <stop offset=".51" stop-color="#e8f6fd"/>
+      <stop offset=".59" stop-color="#ccebfa"/>
+      <stop offset=".68" stop-color="#a5dcf7"/>
+      <stop offset=".77" stop-color="#73caf2"/>
+      <stop offset=".87" stop-color="#37b3ed"/>
+      <stop offset=".95" stop-color="#009ee9"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_224" data-name="Degradado sin nombre 224" x1="518.41" y1="137.82" x2="541.07" y2="137.82" gradientTransform="translate(536.3 279.26) rotate(-139.96) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#009ee9"/>
+      <stop offset=".08" stop-color="#42b7ee"/>
+      <stop offset=".16" stop-color="#84d0f4"/>
+      <stop offset=".24" stop-color="#b9e4f8"/>
+      <stop offset=".31" stop-color="#dff2fc"/>
+      <stop offset=".36" stop-color="#f6fbfe"/>
+      <stop offset=".39" stop-color="#fff"/>
+      <stop offset=".45" stop-color="#f9fcfe"/>
+      <stop offset=".51" stop-color="#e8f6fd"/>
+      <stop offset=".59" stop-color="#ccebfa"/>
+      <stop offset=".68" stop-color="#a5dcf7"/>
+      <stop offset=".77" stop-color="#73caf2"/>
+      <stop offset=".87" stop-color="#37b3ed"/>
+      <stop offset=".95" stop-color="#009ee9"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_224-2" data-name="Degradado sin nombre 224" x1="82.04" y1="235.84" x2="104.7" y2="235.84" gradientTransform="translate(-87.99 255.21) rotate(38.38) scale(1 -1)" xlink:href="#Degradado_sin_nombre_224"/>
+    <linearGradient id="Degradado_sin_nombre_224-3" data-name="Degradado sin nombre 224" x1="346" y1="343.04" x2="368.65" y2="343.04" gradientTransform="translate(536.3 161.24) rotate(139.96)" xlink:href="#Degradado_sin_nombre_224"/>
+    <linearGradient id="Degradado_sin_nombre_224-4" data-name="Degradado sin nombre 224" x1="112.44" y1="93.37" x2="154.24" y2="93.37" gradientTransform="translate(-6.95 18.63) rotate(90) scale(1 -1)" xlink:href="#Degradado_sin_nombre_224"/>
+    <linearGradient id="Degradado_sin_nombre_224-5" data-name="Degradado sin nombre 224" x1="587.54" y1="92.99" x2="629.33" y2="92.99" gradientTransform="translate(-6.95 629.33) rotate(-90)" xlink:href="#Degradado_sin_nombre_224"/>
+    <linearGradient id="Degradado_sin_nombre_224-6" data-name="Degradado sin nombre 224" x1="464.33" y1="55.13" x2="506.13" y2="55.13" gradientTransform="translate(506.13 31.49) rotate(-180) scale(1 -1)" xlink:href="#Degradado_sin_nombre_224"/>
+    <linearGradient id="Degradado_sin_nombre_224-7" data-name="Degradado sin nombre 224" x1="235.24" y1="54.75" x2="277.04" y2="54.75" gradientTransform="translate(-104.58 31.49)" xlink:href="#Degradado_sin_nombre_224"/>
+    <linearGradient id="Degradado_sin_nombre_240" data-name="Degradado sin nombre 240" x1="29.6" y1="85.86" x2="143.23" y2="85.86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#009ee9"/>
+      <stop offset=".04" stop-color="#1da9eb"/>
+      <stop offset=".14" stop-color="#61c3f1"/>
+      <stop offset=".23" stop-color="#99d8f6"/>
+      <stop offset=".31" stop-color="#c5e9fa"/>
+      <stop offset=".39" stop-color="#e4f5fc"/>
+      <stop offset=".45" stop-color="#f8fcfe"/>
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset=".54" stop-color="#f9fcfe"/>
+      <stop offset=".61" stop-color="#e8f6fd"/>
+      <stop offset=".68" stop-color="#ccebfa"/>
+      <stop offset=".76" stop-color="#a5dcf7"/>
+      <stop offset=".84" stop-color="#73caf2"/>
+      <stop offset=".93" stop-color="#37b3ed"/>
+      <stop offset="1" stop-color="#009ee9"/>
+    </linearGradient>
+  </defs>
+  <polygon class="cls-3" points="123.23 51.82 117.19 36.49 141 37.75 135.78 59.97 123.23 51.82"/>
+  <polygon class="cls-6" points="50.21 51.91 56.69 36.77 32.86 37.34 37.43 59.69 50.21 51.91"/>
+  <polygon class="cls-7" points="123.23 120.64 117.19 135.97 141 134.71 135.78 112.49 123.23 120.64"/>
+  <polygon class="cls-1" points="50.21 120.55 56.69 135.69 32.86 135.12 37.43 112.77 50.21 120.55"/>
+  <polygon class="cls-5" points="86.42 137.66 51.42 131.06 88.28 172.86 121.41 131.06 86.42 137.66"/>
+  <polygon class="cls-9" points="86.04 35.2 51.05 41.8 87.9 0 121.04 41.8 86.04 35.2"/>
+  <polygon class="cls-4" points="35.2 86.62 41.8 51.62 0 88.48 41.8 121.61 35.2 86.62"/>
+  <polygon class="cls-2" points="137.26 86.24 130.66 51.25 172.46 88.11 130.66 121.24 137.26 86.24"/>
+  <path class="cls-8" d="m86.49,29.04c-31.37-.08-56.92,25.45-56.89,56.85.03,31.36,25.46,56.78,56.81,56.78,31.36,0,56.78-25.41,56.82-56.78.03-31.35-25.34-56.77-56.74-56.85Zm-.45,106.38c-27.35,0-49.54-22.17-49.56-49.53-.03-27.39,22.26-49.66,49.63-49.59,27.4.07,49.53,22.24,49.5,49.59-.03,27.37-22.21,49.53-49.57,49.53Z"/>
+</svg>

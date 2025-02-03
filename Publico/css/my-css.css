@@ -1,0 +1,125 @@
+.margen-2 {
+    margin: 2%;
+}
+.margen-5 {
+    margin: 5%;
+}
+
+#myModal{
+    margin-top: 20vh;
+}
+
+.text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dragdrop-container{
+    width: 100%;
+    height: 100%;
+    background: #8ea0be;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* Contenedor para la imagen y el marco */
+.frame-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* Centra la imagen horizontalmente */
+    align-items: center;
+    /* Centra la imagen verticalmente */
+    width: 2.8rem;
+    /* Establecer el ancho de la imagen */
+    height: 2.8rem;
+    /* Establecer el alto de la imagen */
+}
+
+/* Estilo para la imagen de perfil */
+.profile-image {
+    border-radius: 30%;
+    /* Redondear bordes de la imagen */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Asegura que la imagen cubra el área de su contenedor */
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+    /* Hace que la imagen esté detrás del marco */
+}
+
+/* Estilo para el marco SVG */
+.frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* Asegura que el marco cubra el contenedor */
+    background-repeat: no-repeat;
+    border-radius: 30%;
+    /* Coincide con el border-radius de la imagen */
+    pointer-events: none;
+    /* Asegura que el marco no interfiera con los clics en la imagen */
+    z-index: 2;
+    /* Hace que el marco esté encima de la imagen */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FONDOS */
+
+.content-activities {
+    background-image: url('../fondos/activities.svg');
+    background-size: 20rem 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay;
+}
+
+.content-tests {
+    background-image: url('../fondos/tests.svg');
+    background-size: 20rem 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay;
+}
+
+.content-ranking {
+    background-image: url('../fondos/ranking.svg');
+    background-size: 20rem 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: multiply;
+}
+
+.content-resources {
+    background-image: url('../fondos/resources.svg');
+    background-size: 20rem 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay;
+}

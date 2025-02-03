@@ -1,0 +1,104 @@
+.contSopaLetras {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+#palabras {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+}
+
+#palabras li {
+    margin-bottom: 5px;
+}
+
+#btn-reiniciar {
+    margin: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btn-reiniciar:hover {
+    background-color: #218838;
+}
+
+.sopaLetras {
+    width: 73%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+#sopaLetras {
+    user-select: none;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+#sopaLetras td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#sopaLetras td:hover {
+    background-color: #f0f8ff;
+}
+
+.a0 {
+    background-color: #aeeb6dc6;
+}
+
+.a1 {
+    background-color: #757fe887;
+}
+
+.a2 {
+    background-color: #be6fc7bf;
+}
+
+.a3 {
+    background-color: #76e2ec;
+}
+
+.a4 {
+    background-color: #ed8585;
+}
+
+.encontrada {
+    border: 2px solid #efb810;
+}
+
+.seleccionada {
+    background-color: rgba(96, 169, 237, 0.476);
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+#lineaSeleccion {
+    position: absolute;
+    background-color: red;
+    pointer-events: none;
+}
